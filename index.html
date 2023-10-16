@@ -11,13 +11,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7d8392467.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header></header>
+<header>
+    <nav>
+        <div id="logo">
+            <img src="assets/Lindalogo.jpg" alt="Logo">
+        </div>
+        <div id="nav-list">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact-me">Contact me</a></li>
+        </ul>
+        </div>
+    </nav>
+</header>
 
 <main>
 <!--Heading section Introduction-->
-    <section class="sectionA">
+    <section class="sectionA" id="home">
 <div class="header">
     <!--<div class="selfie-image">
         <img src="assets/soft1.jpg" alt="Linda img">
@@ -31,7 +47,7 @@
 <!--end of heading section-->
 
 <!--About Me Section-->
-<section class="About-me">
+<section class="About-me" id="about">
     <div class="selfie-image">
         <img src="assets/soft2.jpg" alt="About-me image">
     </div>
@@ -45,7 +61,7 @@
 <!--end of about me section-->
 
 <!--Skills section-->
-<section class="skills-sec">
+<section class="skills-sec" id="skills">
     <div class="">
         <h1>SKILLS</h1>
         <ul>
@@ -92,12 +108,12 @@
     </div>
 </section>
     <!--projects section-->
-    <section>
+    <section id="projects">
     <h1>FEATURED PROJECT WORKS</h1>
     </section>
     <!--end of projects section-->
 <!--contact us section-->
-<section class="what-we-do">
+<section class="what-we-do" id="contact-me">
     <form class="formContainer" id="contactForm">
         <h1 class="contact-us">Contact Me</h1>
         <div class="formInput">
@@ -114,7 +130,18 @@
 </section>
 <!--end of contact us section-->
 </main>
-<footer></footer>
+<footer>
+    <div class="footer-logo">
+        <ul>
+        <li><a href="https://twitter.com/kamerelinda14"><i class="fa-brands fa-twitter fa-2xl fa-bounce"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/linda-kamere-028800249/"><i class="fa-brands fa-linkedin fa-beat fa-2xl"></i></a></li>
+        <li><a href="https://github.com/kamerelinda"><i class="fa-brands fa-github fa-flip fa-2xl"></i></a></li>
+        </ul>
+    </div>
+    <div>
+        <p>&copy Linda Kamere</p>
+    </div>
+</footer>
 <!--cdn for email js-->
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <!--cdn for alert-->

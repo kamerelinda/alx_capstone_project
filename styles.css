@@ -22,6 +22,40 @@
     --background-image-position: center;
     --background-image-height: 800px;
 }
+
+body{
+    margin-left:20px;
+    margin-right: 20px;
+    background-color: #cccccc;
+    font-family: 'Playfair Display', serif;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 150px;
+    margin-bottom: 20px;
+}
+#logo {
+    width: 150px;
+
+}
+#nav-list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-right: 50px;
+}
+#nav-list ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 /*** 2. LAYOUT ***/
 
 /* Header
@@ -35,6 +69,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .introduction {
     font-size: 48px;
@@ -61,14 +96,6 @@
 
 }
 .about-text p {
-
-}
-
-body{
-    margin-left:20px;
-    margin-right: 20px;
-
-    font-family: 'Playfair Display', serif;
 
 }
 
@@ -174,6 +201,7 @@ li{ /*style the li tag*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: burlywood;
 }
 .formInput {
 
@@ -201,3 +229,24 @@ textarea::placeholder {
     text-align: left;
 }
 /*end of contact form*/
+footer {
+    background-color: black;
+}
+.footer-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    height: 6em;
+    margin-bottom: 20px;
+}
+.footer-logo ul{
+    display: flex;
+    gap: 150px;
+}
+footer div p {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
