@@ -8,57 +8,65 @@
     <title>Personal Portfolio Project</title>
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="phone.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a7d8392467.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<header>
+
+    <!--navbar-->
     <nav>
-        <div id="logo">
-            <img src="assets/Lindalogo.jpg" alt="Logo">
-        </div>
         <div id="nav-list">
-        <ul>
+        <ul class="navbar-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact-me">Contact me</a></li>
         </ul>
+
         </div>
     </nav>
-</header>
+    <!--end of navbar section-->
+
+
 
 <main>
 <!--Heading section Introduction-->
-    <section class="sectionA" id="home">
-<div class="header">
-    <!--<div class="selfie-image">
-        <img src="assets/soft1.jpg" alt="Linda img">
-    </div>-->
-    <div class="introduction">
-        <h1>HELLO, I AM LINDA KAMERE</h1>
-        <h3>Full-Stack Developer</h3>
-    </div>
-</div>
+    <section id="home">
+            <div class="introduction">
+                <h1>HELLO, I AM  <br> LINDA KAMERE</h1>
+                <p>Full-Stack Developer</p>
+                <button class="btn">Hire Me</button>
+            </div>
+            <!--<div class="selfie-image1">
+                <img src="assets/linda2.jpg" alt="Linda img">
+            </div>-->
     </section>
 <!--end of heading section-->
 
+
+
 <!--About Me Section-->
 <section class="About-me" id="about">
+    <h1>About Me</h1>
     <div class="selfie-image">
-        <img src="assets/soft2.jpg" alt="About-me image">
-    </div>
-    <div class="about-text">
-        <h1>About Me</h1>
-        <p>
-            I'm Linda Kamere, a passionate and creative software engineer from Nairobi,Kenya with a knack for turning ideas into efficient software solutions. I specialize in Front-end development and thrive on tackling complex problems. I approach each project with a blend of creativity and analytical thinking. Beyond my professional work, I'm passionate about user experience. I'm always eager to connect with fellow enthusiasts and industry professionals. Feel free to reach out to me at <b><a href="mailto:kamerelinda14@gmail.com">kamerelinda14@gmail.com</a></b>or connect on my social links below. Let's collaborate and create something amazing together.
-        </p>
+        <img src="assets/linda2.jpg" alt="About-me image">
+        <div class="about-text">
+            <p>
+                I'm Linda Kamere, a passionate and creative software engineer from Nairobi,Kenya with a knack for turning ideas into efficient software solutions. I specialize in Front-end development and thrive on tackling complex problems. I approach each project with a blend of creativity and analytical thinking. Beyond my professional work, I'm passionate about user experience. I'm always eager to connect with fellow enthusiasts and industry professionals. Feel free to reach out to me at <a href="mailto:kamerelinda14@gmail.com" style="color:lightcoral" >kamerelinda14@gmail.com</a> connect on my social links below. Let's collaborate and create something amazing together.
+            </p>
+        </div>
     </div>
 </section>
 <!--end of about me section-->
+
+
+
+
 
 <!--Skills section-->
 <section class="skills-sec" id="skills">
@@ -107,20 +115,36 @@
         </ul>
     </div>
 </section>
+
     <!--projects section-->
     <section id="projects">
-    <h1>FEATURED PROJECT WORKS</h1>
+        <h1>FEATURED PROJECT WORKS</h1>
+        <div class="gallery">
+            <img src="assets/linda2.jpg" alt="">
+            <img src="assets/linda2.jpg" alt="">
+            <img src="assets/linda2.jpg" alt="">
+            <img src="assets/linda2.jpg" alt="">
+        </div>
     </section>
     <!--end of projects section-->
+
+
+
+
+
+
+
+
+
 <!--contact us section-->
-<section class="what-we-do" id="contact-me">
+    <section id="contact-me">
+    <h1 class="contact-us">Contact Me</h1>
     <form class="formContainer" id="contactForm">
-        <h1 class="contact-us">Contact Me</h1>
         <div class="formInput">
             <label for="name"><input type="text" name="Name" id="name" placeholder="Name"></label>
             <label for="email"><input type="email" name="Email" id="email" placeholder="Email"></label>
             <label>
-                <textarea placeholder="Your message" id="message"></textarea>
+                <textarea placeholder="Your message" id="message" cols="30" rows="4"></textarea>
             </label>
         </div>
         <button class="button" id="submitForm">SUBMIT</button>
@@ -129,6 +153,10 @@
 
 </section>
 <!--end of contact us section-->
+
+
+
+
 </main>
 <footer>
     <div class="footer-logo">
