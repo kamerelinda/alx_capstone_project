@@ -1,0 +1,18 @@
+/*Home*/
+#home{
+    height: 820px;
+}
+h1 {
+    font-size: 1.7rem;
+}
+/*About*/
+.selfie-image img {
+    width: 300px;
+    height: 175px;
+}
+/*Portfolio*/
+.gallery img {
+    width:275px;
+    height:150px;
+    margin: 10px;
+}
