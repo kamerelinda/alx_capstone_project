@@ -36,7 +36,9 @@ This portfolio consists of 5 main features;
  ---
 
 ### 📸 Screenshots or Demo:
-//Include screenshots or a link to a live demo if available. Visual representations can help readers understand the project’s appearance and functionality.
+#### Flowchart
+![screenshot of flowchart](./FLOWCHART%20AND%20DESIGN/portfolio%20flowchart.png)
+#### Screenshot/ Live demo
 
 ---
 
