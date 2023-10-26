@@ -5,6 +5,9 @@
 h1 {
     font-size: 1.7rem;
 }
+h2 {
+    font-size: 1.1rem;
+}
 /*About*/
 .selfie-image img {
     width: 300px;
@@ -15,4 +18,8 @@ h1 {
     width:275px;
     height:150px;
     margin: 10px;
+}
+.footer-logo ul {
+    display: flex;
+    gap: 70px;
 }
